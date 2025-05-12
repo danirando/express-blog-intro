@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/bacheca", (req, res) => {
-  res.json(posts);
+  res.json({ posts });
 });
 
 app.listen(port, () => {
